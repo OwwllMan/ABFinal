@@ -1,0 +1,171 @@
+/* Assets 
+
+#5c1b1b; First Red color 
+
+*/
+
+/* All */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+}
+
+/* ---------------- */
+/* REUSABLE */
+/* ------------------ */
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.hidden{
+    display:none;
+}
+
+/* ---------------- */
+/* HEADER */
+/* ------------------ */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/main.jpg);
+    background-position:center;
+    height:100vh;
+}
+
+.mainTextBox {
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+.main-nav{
+    float:right;
+    list-style:none;
+    margin-top:55px;
+}
+
+.main-nav li{
+    display:inline-block;
+    margin-left:40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:8px 0;
+    color:#FFF;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:90%;
+    border-bottom:2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom:2px solid #5c1b1b;
+    transition: border-bottom 0.2s;
+}
+
+/* ---------------- */
+/* HEADING */
+/* ------------------ */
+
+h1{
+    margin-top:0;
+    margin-bottom:20px;
+    color:#FFF;
+    font-size:240%;
+    font-weight:300;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    word-spacing:3px;
+}
+
+/* ---------------- */
+/* BUTTON */
+/* ------------------ */
+
+.btn:link,
+.btn:visited{
+    display:inline-block;
+    padding:10px 30px;
+    font-weight:300;
+    text-decoration:none;
+    border-radius:200px;
+    color:#FFF;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #5c1b1b;
+    border:3px solid #5c1b1b;
+    margin-right:15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border:3px solid #5c1b1b;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color:#421313;
+    border-color:#421313;
+}
+
+/* Part-1 */
+
+/* Part-2 */
+
+/* Part-3 */
+
+/* About */
+
+/* Footer */
+
+
+/* ---------------- */
+/* ICON-FONTAWSOME */
+/* ------------------ */
+
+.fa-angle-down {
+    font-size:15px;
+   
+}
+
+.socialIcon{
+    color:#FFF;
+}
+
+.socialIcon:hover,
+.socialIcon:active{
+    color:#5c1b1b;
+}
+
+#iconFacebook:hover,
+#iconFacebook:active{
+    border-bottom: 2px solid transparent;
+}
+
+#iconInstagram:hover,
+#iconInstagram:active{
+    border-bottom: 2px solid transparent;
+}
+
+
+/* ------------------ */

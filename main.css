@@ -202,7 +202,7 @@ h2{
 /* ------------------ */
 
 section{
-    padding:450px 0;
+    padding-top:40vh;
 }
 
 section p {
@@ -247,7 +247,7 @@ section p {
     background-position:center;
     background-size:cover;
     clip-path: polygon( 0 0,100% 0, 100% 100%,0 calc(100% - 5vw));
-    height:100vh;
+    height:110vh;
     margin-top: -5vw;
 }
 
@@ -384,6 +384,19 @@ footer p{
 .fa-angle-down {
     font-size:15px;
 }
+
+.section-1 i{
+    font-size:40px;
+}
+
+.section-2 i{
+    font-size:40px;
+}
+
+.section-3 i{
+    font-size:40px;
+}
+
 
 .socialIcon{
     color:#FFF;

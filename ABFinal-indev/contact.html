@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>L'Auberge D'Eschau</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="shortcut icon" type="image/x-icon" href="IMG/Favicon.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="JS/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <div class="row">
+                    <img src="IMG/logo.png" alt="Logo de L'Auberge D'Eschau" class="logo">
+                    <ul class="main-nav">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">&Agrave; Propos</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a id="iconInstagram" class="socialIcon" href="#"><i class="socialIcon fab fa-instagram"></i></a></li>
+                        <li><a id="iconFacebook" class="socialIcon" href="#"><i class="socialIcon fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-form">
+                <form method="post" action="data.php">
+                    <div class="input-name">
+                        <p>Votre Nom :<br><input type="nom" name="nom" placeholder="Nom" required="required"></p>
+                    </div>
+                    <div class="input-email">
+                        <p>Votre adresse Email :<br><input type="email" name="email" placeholder=" " required="required"></p>
+                    </div>
+                    <div class="input-number">
+                        <p>Nombre de couverts :<br><input type="couvert" name="number" placeholder=" " required="required"></p>
+                    </div>
+                    <div class="input-date">
+                        <p>Date de votre réservation : <br><input type="date" name="date" placeholder="date" required="required"></p>
+                    </div>
+                    <div class="input-agree">
+                        <input type="checkbox" name="oui" value="oui">
+                        <label for="oui">Oui</label>
+                        <input type="checkbox" name="non" value="non">
+                        <label for="non">non</label>
+                    </div>
+                    <p><input type="submit" value="Réserver"></p>
+                </form>
+            </div>
+        </header>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">    
+                    <ul class="footerNav">
+                        <li><a href="#">&Agrave; Propos</a></li>
+                        <li><a href="#">Réserver</a></li>
+                        <li><a href="#">Nous Contacter</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">    
+                    <ul class="footerLinks">
+                        <li><a href="#"><i id="footerInstagram" class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i id="footerFacebook" class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i id="footerEmail" class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Tout droit réservé &copy; 2018 L'Auberge D'Eschau
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

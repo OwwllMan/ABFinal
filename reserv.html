@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>L'Auberge D'Eschau</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="reserv.css">
+        <link rel="shortcut icon" type="image/x-icon" href="IMG/Favicon.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="JS/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+          <nav>
+                <div class="row">
+                    <a href="index.html"><img src="IMG/logo.png" alt="Logo de L'Auberge D'Eschau" class="logo"></a>
+                    <ul class="main-nav">
+                        <li><a href="#about">&Agrave; Propos</a></li>
+                        <li><a href="reserv.html">Réserver</a></li>
+                        <li><a href="contact.html">Nous Contacter</a></li>
+                        <li><a id="iconInstagram" class="socialIcon" href="http://bit.ly/Auberge-instagram"><i class="socialIcon fab fa-instagram"></i></a></li>
+                        <li><a id="iconFacebook" class="socialIcon" href="http://bit.ly/Auberge-facebook"><i class="socialIcon fab fa-facebook-f"></i></a></li>
+                    </ul>
+                    <div class="main-navToggle">
+                        <span class="main-navToggleIcon"></span>
+                    </div>
+                </div>
+            </nav>
+            <div class="mainText">
+                <h2>Réserver votre table en ligne !</h2>
+                <p>Une fois votre réservation effectuer vous receverrais un email de confirmation dans l'heure.<br>
+                <i id="info">Pour annuler une réservation veuillez nous envoiez un email à cette adresse : contact@auberge-eschau.fr</i>
+                </p>
+            </div>
+            <div class="main-form">
+                <form method="post" action="reserv.php">
+                    <div class="input-name">
+                        <p><i class="fas fa-address-card"></i>Votre Nom<br><input type="nom" name="nom" placeholder="" required="required"></p>
+                    </div>
+                    <div class="input-email">
+                        <p>&#64;Votre adresse Email<br><input type="email" name="email" placeholder="" required="required"></p>
+                    </div>
+                    <div class="input-number">
+                        <p><i class="fas fa-user-friends"></i>Nombre de couverts<br><input type="nb" name="number" placeholder="" required="required"></p>
+                    </div>
+                    <div class="input-heure">
+                        <p><i class="fas fa-calendar-alt"></i>Heure de votre réservation<br><input type="heure" name="heure" placeholder="" required="required"></p>
+                    </div>
+                    <div class="input-date">
+                        <p><i class="fas fa-calendar-alt"></i>Date de votre réservation<br><input type="date" name="date" placeholder="" required="required"></p>
+                    </div>
+                    <div class="input-agree">
+                        <input type="radio" name="agree" value="oui">
+                        <label  for="oui">Oui</label>
+                        <input type="radio" name="agree" value="non">
+                        <label  for="non">non</label>
+                    </div>
+                    <p><input type="submit" value="Réserver"></p>
+                </form>
+            </div>
+        </header>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">    
+                    <ul class="footerNav">
+                        <li><a href="#">&Agrave; Propos</a></li>
+                        <li><a href="#">Réserver</a></li>
+                        <li><a href="#">Nous Contacter</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">    
+                    <ul class="footerLinks">
+                        <li><a href="http://bit.ly/Auberge-instagram"><i id="footerInstagram" class="fab fa-instagram"></i></a></li>
+                        <li><a href="http://bit.ly/Auberge-facebook"><i id="footerFacebook" class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="contact.html"><i id="footerEmail" class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Tout droit réservé &copy; 2018 L'Auberge D'Eschau
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

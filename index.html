@@ -11,64 +11,76 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </head>
     <body>
-        <header>
+        <header class="headerCut">
             <nav>
                 <div class="row">
-                    <img src="IMG/logo.png" alt="Logo de L'Auberge D'Eschau" class="logo">
+                    <a href="index.html"><img src="IMG/logo.png" alt="Logo de L'Auberge D'Eschau" class="logo"></a>
                     <ul class="main-nav">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">&Agrave; Propos</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a id="iconInstagram" class="socialIcon" href="#"><i class="socialIcon fab fa-instagram"></i></a></li>
-                        <li><a id="iconFacebook" class="socialIcon" href="#"><i class="socialIcon fab fa-facebook-f"></i></a></li>
+                        <li><a href="#about">&Agrave; Propos</a></li>
+                        <li><a href="reserv.html">Réserver</a></li>
+                        <li><a href="contact.html">Nous Contacter</a></li>
+                        <li><a id="iconInstagram" class="socialIcon" href="http://bit.ly/Auberge-instagram"><i class="socialIcon fab fa-instagram"></i></a></li>
+                        <li><a id="iconFacebook" class="socialIcon" href="http://bit.ly/Auberge-facebook"><i class="socialIcon fab fa-facebook-f"></i></a></li>
                     </ul>
+                    <div class="main-navToggle">
+                        <span class="main-navToggleIcon"></span>
+                    </div>
                 </div>
             </nav>
             <div id="fade" class="hidden mainTextBox">
                 <h1>Des Plats Frais Fait Maison<br> de notre Région.</h1>
                 <a class="btn btn-full" href="#">Nous Contacter</a>
-                <a class="btn btn-ghost" href="#">Voir plus <i class="fas fa-angle-down"></i></a>
+                <a class="btn btn-ghost" href="#voirplus">Voir plus <i class="fas fa-angle-down"></i></a>
             </div>
         </header>
-        <section class="section-1">
+        <section id="voirplus" class="section-1">
             <div class="row">
                 <h2 class="hide" id="headingSection-1"><i class="sectionIcon fab fa-envira"></i> Des plats frais .</h2>
-                <p class="hide text-section-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis ratione sed, repellendus quam<br>voluptatem expedita, possimus laborum! Eius cum, voluptatibus perspiciatis ab, nihil minus tenetur qua<br> earum repellat error.</p>
+                <p class="hide text-section-1">
+                Le Chef met un point d’honneur à faire chaque matin son marché<br>afin de pouvoir sélectionner les meilleurs produits possible<br> pour confectionner des plats d’une grande fraîcheur .
+                </p>
             </div>
         </section>
         <section class="section-2">
             <div class="row">
                 <h2 class="hide" id="headingSection-2"><i class="sectionIcon fas fa-utensils"></i> Fait maison .</h2>
-                <p class="hide text-section-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis ratione sed, repellendus quam<br>voluptatem expedita, possimus laborum! Eius cum, voluptatibus perspiciatis ab, nihil minus tenetur qua<br> earum repellat error.</p>
+                <p class="hide text-section-2">
+                Nos produits sont travaillé dès le retour du marché<br>pour assurer une grande fraîcheur dans la confection de nos plats<br>afin satisfaire au mieux nos fidèle clients 
+                </p>
             </div>
         </section>
         <section class="section-3">
             <div class="row">
                 <h2 class="hide" id="headingSection-3"><i class="sectionIcon fas fa-map-marked-alt"></i> De notre Région .</h2>
-                <p class="hide text-section-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis ratione sed, repellendus quam<br>voluptatem expedita, possimus laborum! Eius cum, voluptatibus perspiciatis ab, nihil minus tenetur qua<br> earum repellat error.</p>
+                <p class="hide text-section-3">
+                Nous vous proposons une cuisine familiale composé de produits<br>sélectionnés minutieusement auprès de nos différents fournisseurs locaux<br>
+                vous pouvez retrouvez sur notre carte un large choix de plats typiquement alsaciens mais pas que !
+                </p>
             </div>
         </section>
         <section class="aboutSection">
             <div class="row">
                 <h2 id="headingAboutSection">&Agrave; Propos</h2>
-                <p class="text-About">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis ratione sed, repellendus quam<br>voluptatem expedita, possimus laborum! Eius cum, voluptatibus perspiciatis ab, nihil minus tenetur qua<br> earum repellat error.</p>
-                <p class="text-About">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur veritatis ratione sed, repellendus quam<br>voluptatem expedita, possimus laborum! Eius cum, voluptatibus perspiciatis ab, nihil minus tenetur qua<br> earum repellat error.</p>
+                <p id="about" class="text-About">Cela fait maintenant plus de 24 ans qui nous avons le plaisir de vous recevoir dans notre auberge familiale</p>
+                <p class="text-About">Nous tenons également à travailler le plus possible avec des producteurs locaux.
+                    Ce qui nous permet d'avoir toujours des produits frais et de la meilleure qualité, mais également de réduire les intermédiaires et de favoriser les circuits court, 
+                    Grace à cela les agriculteurs de notre région sont rétribué alors leurs justes valeurs</p>
             </div>
         </section>
         <footer>
             <div class="row">
                 <div class="col span-1-of-2">    
                     <ul class="footerNav">
-                        <li><a href="#">&Agrave; Propos</a></li>
-                        <li><a href="#">Réserver</a></li>
+                        <li><a href="#about">&Agrave; Propos</a></li>
+                        <li><a href="reserv.html">Réserver</a></li>
                         <li><a href="#">Nous Contacter</a></li>
                     </ul>
                 </div>
                 <div class="col span-1-of-2">    
                     <ul class="footerLinks">
-                        <li><a href="#"><i id="footerInstagram" class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i id="footerFacebook" class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i id="footerEmail" class="fas fa-envelope"></i></a></li>
+                        <li><a href="http://bit.ly/Auberge-instagram"><i id="footerInstagram" class="fab fa-instagram"></i></a></li>
+                        <li><a href="http://bit.ly/Auberge-facebook"><i id="footerFacebook" class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="contact.html"><i id="footerEmail" class="fas fa-envelope"></i></a></li>
                     </ul>
                 </div>
             </div>

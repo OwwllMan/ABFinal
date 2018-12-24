@@ -1,0 +1,253 @@
+Dec 24 10:07:04 10.71.51.0 u94839266 Connection from 10.71.51.0 port 16768 on 82.165.80.102 port 22
+Dec 24 10:07:05 10.71.51.0 u94839266 Accepted password for u94839266 from 10.71.51.0 port 16768 ssh2
+Dec 24 10:07:05 10.71.51.0 u94839266 Starting session: subsystem 'sftp' for u94839266 from 10.71.51.0 port 16768
+Dec 24 10:07:05 10.71.51.0 u94839266 session opened for local user u94839266 from [10.71.51.0]
+Dec 24 10:07:16 10.71.51.0 u94839266 Connection from 10.71.51.0 port 27608 on 82.165.80.102 port 22
+Dec 24 10:07:16 10.71.51.0 u94839266 Accepted password for u94839266 from 10.71.51.0 port 27608 ssh2
+Dec 24 10:07:16 10.71.51.0 u94839266 Connection from 10.71.51.0 port 27614 on 82.165.80.102 port 22
+Dec 24 10:07:16 10.71.51.0 u94839266 Accepted password for u94839266 from 10.71.51.0 port 27614 ssh2
+Dec 24 10:07:16 10.71.51.0 u94839266 Starting session: subsystem 'sftp' for u94839266 from 10.71.51.0 port 27608
+Dec 24 10:07:16 10.71.51.0 u94839266 session opened for local user u94839266 from [10.71.51.0]
+Dec 24 10:07:16 10.71.51.0 u94839266 Starting session: subsystem 'sftp' for u94839266 from 10.71.51.0 port 27614
+Dec 24 10:07:16 10.71.51.0 u94839266 session opened for local user u94839266 from [10.71.51.0]
+Dec 24 10:07:16 10.71.51.0 u94839266 open "/index.html" flags READ mode 0666
+Dec 24 10:07:16 10.71.51.0 u94839266 open "/Grid.css" flags READ mode 0666
+Dec 24 10:07:16 10.71.51.0 u94839266 close "/index.html" bytes read 5496 written 0
+Dec 24 10:07:16 10.71.51.0 u94839266 [10.71.51.0|get|0|5496|0|0|0|2f696e6465782e68746d6c|]
+Dec 24 10:07:16 10.71.51.0 u94839266 close "/Grid.css" bytes read 8390 written 0
+Dec 24 10:07:16 10.71.51.0 u94839266 [10.71.51.0|get|0|8390|0|0|0|2f477269642e637373|]
+Dec 24 10:07:16 10.71.51.0 u94839266 open "/main.css" flags READ mode 0666
+Dec 24 10:07:16 10.71.51.0 u94839266 open "/reserv.css" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/main.css" bytes read 7983 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|1|7983|0|0|0|2f6d61696e2e637373|]
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/reserv.css" bytes read 1342 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|1|1342|0|0|0|2f7265736572762e637373|]
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/reserv.html" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/reserv.php" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/reserv.html" bytes read 4885 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|4885|0|0|0|2f7265736572762e68746d6c|]
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/reserv.php" bytes read 1020 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|1020|0|0|0|2f7265736572762e706870|]
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/IMG/tableau-ardoise.jpg" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/IMG/main.jpg" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/IMG/tableau-ardoise.jpg" bytes read 126199 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|126199|0|0|0|2f494d472f7461626c6561752d6172646f6973652e6a7067|]
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/IMG/main.jpg" bytes read 386748 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|386748|0|0|0|2f494d472f6d61696e2e6a7067|]
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/IMG/logo.png" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/IMG/IMG-004.JPG" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/IMG/logo.png" bytes read 17039 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|17039|0|0|0|2f494d472f6c6f676f2e706e67|]
+Dec 24 10:07:17 10.71.51.0 u94839266 open "/IMG/IMG-003.jpeg" flags READ mode 0666
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/IMG/IMG-004.JPG" bytes read 2568215 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|2568215|0|0|0|2f494d472f494d472d3030342e4a5047|]
+Dec 24 10:07:17 10.71.51.0 u94839266 close "/IMG/IMG-003.jpeg" bytes read 797263 written 0
+Dec 24 10:07:17 10.71.51.0 u94839266 [10.71.51.0|get|0|797263|0|0|0|2f494d472f494d472d3030332e6a706567|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/IMG/IMG-002.jpeg" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/IMG/IMG-001.jpeg" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/IMG/IMG-002.jpeg" bytes read 261361 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|1|261361|0|0|0|2f494d472f494d472d3030322e6a706567|]
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/IMG/IMG-001.jpeg" bytes read 644102 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/IMG/Favicon.png" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|644102|0|0|0|2f494d472f494d472d3030312e6a706567|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/IMG/contact-background.jpg" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/IMG/Favicon.png" bytes read 41506 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|41506|0|0|0|2f494d472f46617669636f6e2e706e67|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/IMG/1457833bffa2180.jpg" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/IMG/contact-background.jpg" bytes read 131923 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|131923|0|0|0|2f494d472f636f6e746163742d6261636b67726f756e642e6a7067|]
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/IMG/1457833bffa2180.jpg" bytes read 105941 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|105941|0|0|0|2f494d472f3134353738333362666661323138302e6a7067|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/JS/script.js" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/JS/script.js" bytes read 838 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|838|0|0|0|2f4a532f7363726970742e6a73|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/logs/access.log.51.5.gz" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/logs/access.log.51.5.gz" bytes read 222 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|222|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e352e677a|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/logs/access.log.51.7.gz" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/logs/access.log.51.4.gz" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/logs/access.log.51.7.gz" bytes read 194 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|194|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e372e677a|]
+Dec 24 10:07:18 10.71.51.0 u94839266 close "/logs/access.log.51.4.gz" bytes read 829 written 0
+Dec 24 10:07:18 10.71.51.0 u94839266 [10.71.51.0|get|0|829|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e342e677a|]
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/logs/access.log.51.2.gz" flags READ mode 0666
+Dec 24 10:07:18 10.71.51.0 u94839266 open "/logs/access.log.49.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.51.2.gz" bytes read 174 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|1|174|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e322e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.49.gz" bytes read 1271 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|1|1271|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.48.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.47.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.48.gz" bytes read 909 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|909|0|0|0|2f6c6f67732f6163636573732e6c6f672e34382e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.47.gz" bytes read 1166 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|1166|0|0|0|2f6c6f67732f6163636573732e6c6f672e34372e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.46.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.45.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.46.gz" bytes read 1494 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|1494|0|0|0|2f6c6f67732f6163636573732e6c6f672e34362e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.45.gz" bytes read 1872 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|1872|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.50.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/sftp.log.51.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.50.gz" bytes read 1876 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|1876|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/sftp.log.51.gz" bytes read 223 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|223|0|0|0|2f6c6f67732f736674702e6c6f672e35312e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.51.1.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/sftp.log" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.51.1.gz" bytes read 295 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|295|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e312e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/sftp.log" bytes read 9249 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|9249|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.51.6.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.51.3.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.51.6.gz" bytes read 330 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|330|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e362e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.51.3.gz" bytes read 387 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|387|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e332e677a|]
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/access.log.44.gz" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 open "/logs/last_traffic" flags READ mode 0666
+Dec 24 10:07:19 10.71.51.0 u94839266 close "/logs/access.log.44.gz" bytes read 1360 written 0
+Dec 24 10:07:19 10.71.51.0 u94839266 [10.71.51.0|get|0|1360|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e677a|]
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/last_traffic" bytes read 0 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|1|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.db" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/info.py" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/info.py" bytes read 6384 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/traffic.db" bytes read 12288 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|12288|0|0|0|2f6c6f67732f747261666669632e6462|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/info.php5" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/info.pl" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/info.php5" bytes read 21 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/info.pl" bytes read 4176 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/.htaccess" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/.htaccess" bytes read 267 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/12.html" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/traffic.html/12.html" bytes read 8839 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|8839|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/11.html" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/10.html" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/traffic.html/11.html" bytes read 8508 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|8508|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/traffic.html/10.html" bytes read 5756 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|5756|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31302e68746d6c|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 sent status Permission denied
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/09.html" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 sent status Permission denied
+Dec 24 10:07:20 10.71.51.0 u94839266 close "/logs/traffic.html/09.html" bytes read 6109 written 0
+Dec 24 10:07:20 10.71.51.0 u94839266 [10.71.51.0|get|0|6109|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30392e68746d6c|]
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+Dec 24 10:07:20 10.71.51.0 u94839266 sent status Permission denied
+Dec 24 10:07:20 10.71.51.0 u94839266 open "/logs/traffic.html/index.html" flags READ mode 0666
+Dec 24 10:07:21 10.71.51.0 u94839266 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+Dec 24 10:07:21 10.71.51.0 u94839266 close "/logs/traffic.html/index.html" bytes read 3995 written 0
+Dec 24 10:07:21 10.71.51.0 u94839266 [10.71.51.0|get|1|3995|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+Dec 24 10:07:21 10.71.51.0 u94839266 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+Dec 24 10:07:21 10.71.51.0 u94839266 [10.71.51.0|get|1|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+Dec 24 10:08:21 10.71.51.0 u94839266 session closed for local user u94839266 from [10.71.51.0]
+Dec 24 10:08:21 10.71.51.0 u94839266 Connection closed by 10.71.51.0
+Dec 24 10:08:21 10.71.51.0 u94839266 session closed for local user u94839266 from [10.71.51.0]
+Dec 24 10:08:21 10.71.51.0 u94839266 Connection closed by 10.71.51.0
+Dec 24 10:08:29 10.71.51.0 u94839266 Connection from 10.71.51.0 port 40460 on 82.165.80.102 port 22
+Dec 24 10:08:30 10.71.51.0 u94839266 Accepted password for u94839266 from 10.71.51.0 port 40460 ssh2
+Dec 24 10:08:29 10.71.51.0 u94839266 Connection from 10.71.51.0 port 40462 on 82.165.80.102 port 22
+Dec 24 10:08:30 10.71.51.0 u94839266 Accepted password for u94839266 from 10.71.51.0 port 40462 ssh2
+Dec 24 10:08:30 10.71.51.0 u94839266 Starting session: subsystem 'sftp' for u94839266 from 10.71.51.0 port 40460
+Dec 24 10:08:30 10.71.51.0 u94839266 Starting session: subsystem 'sftp' for u94839266 from 10.71.51.0 port 40462
+Dec 24 10:08:30 10.71.51.0 u94839266 session opened for local user u94839266 from [10.71.51.0]
+Dec 24 10:08:30 10.71.51.0 u94839266 session opened for local user u94839266 from [10.71.51.0]
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/Grid.css" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/index.html" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/index.html" bytes read 5496 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|5496|0|0|0|2f696e6465782e68746d6c|]
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/Grid.css" bytes read 8390 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|8390|0|0|0|2f477269642e637373|]
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/main.css" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/reserv.css" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/main.css" bytes read 7983 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|7983|0|0|0|2f6d61696e2e637373|]
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/reserv.css" bytes read 1342 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|1342|0|0|0|2f7265736572762e637373|]
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/reserv.html" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/reserv.php" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/reserv.html" bytes read 4885 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|4885|0|0|0|2f7265736572762e68746d6c|]
+Dec 24 10:08:30 10.71.51.0 u94839266 close "/reserv.php" bytes read 1020 written 0
+Dec 24 10:08:30 10.71.51.0 u94839266 [10.71.51.0|get|0|1020|0|0|0|2f7265736572762e706870|]
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/IMG/tableau-ardoise.jpg" flags READ mode 0666
+Dec 24 10:08:30 10.71.51.0 u94839266 open "/IMG/main.jpg" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/tableau-ardoise.jpg" bytes read 126199 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|1|126199|0|0|0|2f494d472f7461626c6561752d6172646f6973652e6a7067|]
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/main.jpg" bytes read 386748 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|1|386748|0|0|0|2f494d472f6d61696e2e6a7067|]
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/logo.png" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/IMG-004.JPG" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/logo.png" bytes read 17039 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|17039|0|0|0|2f494d472f6c6f676f2e706e67|]
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/IMG-004.JPG" bytes read 2568215 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|2568215|0|0|0|2f494d472f494d472d3030342e4a5047|]
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/IMG-002.jpeg" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/IMG-003.jpeg" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/IMG-002.jpeg" bytes read 261361 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|261361|0|0|0|2f494d472f494d472d3030322e6a706567|]
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/IMG-003.jpeg" bytes read 797263 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|797263|0|0|0|2f494d472f494d472d3030332e6a706567|]
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/IMG-001.jpeg" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/Favicon.png" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/IMG-001.jpeg" bytes read 644102 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|644102|0|0|0|2f494d472f494d472d3030312e6a706567|]
+Dec 24 10:08:31 10.71.51.0 u94839266 close "/IMG/Favicon.png" bytes read 41506 written 0
+Dec 24 10:08:31 10.71.51.0 u94839266 [10.71.51.0|get|0|41506|0|0|0|2f494d472f46617669636f6e2e706e67|]
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/contact-background.jpg" flags READ mode 0666
+Dec 24 10:08:31 10.71.51.0 u94839266 open "/IMG/1457833bffa2180.jpg" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/IMG/contact-background.jpg" bytes read 131923 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|1|131923|0|0|0|2f494d472f636f6e746163742d6261636b67726f756e642e6a7067|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/IMG/1457833bffa2180.jpg" bytes read 105941 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|1|105941|0|0|0|2f494d472f3134353738333362666661323138302e6a7067|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/JS/script.js" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.51.5.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/JS/script.js" bytes read 838 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|838|0|0|0|2f4a532f7363726970742e6a73|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.51.5.gz" bytes read 222 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|222|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e352e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.51.4.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.51.7.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.51.4.gz" bytes read 829 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|829|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e342e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.51.7.gz" bytes read 194 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|194|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e372e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.51.2.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.49.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.51.2.gz" bytes read 174 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|174|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e322e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.49.gz" bytes read 1271 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|1271|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.48.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.47.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.48.gz" bytes read 909 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|909|0|0|0|2f6c6f67732f6163636573732e6c6f672e34382e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.47.gz" bytes read 1166 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|1166|0|0|0|2f6c6f67732f6163636573732e6c6f672e34372e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.46.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.45.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.46.gz" bytes read 1494 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|1494|0|0|0|2f6c6f67732f6163636573732e6c6f672e34362e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.45.gz" bytes read 1872 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|1872|0|0|0|2f6c6f67732f6163636573732e6c6f672e34352e677a|]
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/access.log.50.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 open "/logs/sftp.log.51.gz" flags READ mode 0666
+Dec 24 10:08:32 10.71.51.0 u94839266 close "/logs/access.log.50.gz" bytes read 1876 written 0
+Dec 24 10:08:32 10.71.51.0 u94839266 [10.71.51.0|get|0|1876|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Dec 24 10:08:33 10.71.51.0 u94839266 close "/logs/sftp.log.51.gz" bytes read 223 written 0
+Dec 24 10:08:33 10.71.51.0 u94839266 [10.71.51.0|get|1|223|0|0|0|2f6c6f67732f736674702e6c6f672e35312e677a|]
+Dec 24 10:08:33 10.71.51.0 u94839266 open "/logs/access.log.51.1.gz" flags READ mode 0666
+Dec 24 10:08:33 10.71.51.0 u94839266 open "/logs/sftp.log" flags READ mode 0666
+Dec 24 10:08:33 10.71.51.0 u94839266 close "/logs/access.log.51.1.gz" bytes read 295 written 0
+Dec 24 10:08:33 10.71.51.0 u94839266 [10.71.51.0|get|0|295|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e312e677a|]

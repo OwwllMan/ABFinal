@@ -1,0 +1,83 @@
+.main-form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius:15px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(IMG/tableau-ardoise.jpg);
+    background-position:center;
+    margin-top:150px;
+    padding:30px 80px 30px 80px;
+}
+
+label{
+    color:#FFF;
+}
+
+
+
+.mainText{
+    position:absolute;
+    top:30%;
+    left:53%;
+    transform:translate(-50%, -50%);
+}
+
+p{
+    color:#FFF;
+}
+
+form div input{
+    padding-right:125px;
+    height:30px;
+}
+
+input[type="radio"]{
+    margin:10px;
+}
+
+input[type="date"]{
+    width:280px;
+    padding-right:0px;
+}
+
+input[type="submit"]{
+    margin-top:20px;
+    margin-left:30px;
+	background-color:#5c1b1b; 
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:25px;
+	border:2px solid #5c1b1b; 
+	display:inline-block;
+	color:#ffffff;
+	font-size:20px;
+	padding:13px 49px;
+	text-decoration:none;
+    cursor:pointer;    
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active{
+   
+	background-color:#421313;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:25px;
+	border:2px solid #421313;
+	display:inline-block;
+	color:#ffffff;
+	font-size:20px;
+	padding:13px 49px;
+	text-decoration:none;
+    cursor:pointer;    
+}
+
+
+form div{
+    padding-top:30px;
+}
+
+#info{
+    font-size:15px;
+}
